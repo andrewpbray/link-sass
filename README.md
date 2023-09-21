@@ -36,7 +36,7 @@ Here is a [paragraph]{style="color: $my-green"}.
 
 While the main use case is passing HTML style attributes, it should be possible to store anything that could be useful to pass as a pandoc attribute as a SASS variable in an scss file.
 
-### The problem
+### The motivation
 
 When working in the HTML format, it is helpful to store top-level aesthetic attributes (e.g. colors) as SASS variables. These variables become accessible to CSS rules.
 
@@ -64,6 +64,8 @@ It does not work, however, to pass to an element the name of the variable direct
 ```markdown
 This is [fun]{.highlight-word}. [This]{style="color: $my-success-color"}, however, is not.
 ```
+
+This filter makes this approach possible.
 
 ### Example
 
