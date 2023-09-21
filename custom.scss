@@ -1,11 +1,12 @@
 /*-- scss:defaults --*/
 
-$my-red: green !default;
-$my-text-color: $my-red !default;
-$my-success: $my-text-color !default;
+$my-green: #4CBB17 !default;
+$my-success-color: $my-green !default;
+$my-text-color: $my-success-color !default;
 
 /*-- scss:rules --*/
 
-.my-rule{
-  color: blue;
+.highlight-word{
+  color: $my-success-color;
+  background-color: lighten($my-success-color, 20%);
 }

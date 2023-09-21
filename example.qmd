@@ -5,6 +5,6 @@ filters:
   - link-sass
 ---
 
-Pass html attributes [directly]{style="color: green;"} or through your [Sass variables]{style="color: $my-success"}!
+Pass html attributes [directly]{style="color: #4CBB17;"} or through your [Sass variables]{style="color: $my-text-color"}!
 
 
