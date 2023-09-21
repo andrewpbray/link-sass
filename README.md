@@ -34,6 +34,8 @@ Here is a paragraph.
 Here is a [paragraph]{style="color: $my-green"}.
 ```
 
+While the main use case is passing HTML style attributes, it should be possible to store anything that could be useful to pass as a pandoc attribute as a SASS variable in an scss file.
+
 ### The problem
 
 When working in the HTML format, it is helpful to store top-level aesthetic attributes (e.g. colors) as SASS variables. These variables become accessible to CSS rules.
