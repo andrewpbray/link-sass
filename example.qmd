@@ -1,0 +1,10 @@
+---
+title: "Link-sass Example"
+theme: custom.scss
+filters:
+  - link-sass
+---
+
+Pass html attributes [directly]{style="color: green;"} or through your [Sass variables]{style="color: $my-success"}!
+
+

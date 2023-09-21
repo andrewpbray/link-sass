@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+
+$my-red: green !default;
+$my-text-color: $my-red !default;
+$my-success: $my-text-color !default;
+
+/*-- scss:rules --*/
+
+.my-rule{
+  color: blue;
+}
